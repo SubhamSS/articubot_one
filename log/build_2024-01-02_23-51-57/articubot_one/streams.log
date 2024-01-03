@@ -1,0 +1,72 @@
+[0.153s] Invoking command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/subhamss/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subhamss/dev_ws/src/articubot_one/install/articubot_one
+[0.482s] -- The C compiler identification is GNU 9.4.0
+[0.643s] -- The CXX compiler identification is GNU 9.4.0
+[0.658s] -- Check for working C compiler: /usr/bin/cc
+[0.741s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.748s] -- Detecting C compiler ABI info
+[0.852s] -- Detecting C compiler ABI info - done
+[0.862s] -- Detecting C compile features
+[0.864s] -- Detecting C compile features - done
+[0.870s] -- Check for working CXX compiler: /usr/bin/c++
+[0.966s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.967s] -- Detecting CXX compiler ABI info
+[1.042s] -- Detecting CXX compiler ABI info - done
+[1.050s] -- Detecting CXX compile features
+[1.051s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.084s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.084s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.216s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.280s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.360s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.366s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.366s] -- Configured cppcheck include dirs: 
+[1.366s] -- Configured cppcheck exclude dirs and/or files: 
+[1.370s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.371s] -- Configured cpplint exclude dirs and/or files: 
+[1.372s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.375s] -- Added test 'lint_cmake' to check CMake code style
+[1.377s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.381s] -- Added test 'uncrustify' to check C / C++ code style
+[1.381s] -- Configured uncrustify additional arguments: 
+[1.384s] -- Added test 'xmllint' to check XML markup files
+[1.389s] -- Configuring done
+[1.394s] -- Generating done
+[1.396s] -- Build files have been written to: /home/subhamss/dev_ws/src/articubot_one/build/articubot_one
+[1.401s] Invoked command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake /home/subhamss/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subhamss/dev_ws/src/articubot_one/install/articubot_one
+[1.402s] Invoking command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/subhamss/dev_ws/src/articubot_one/build/articubot_one -- -j1 -l1
+[1.437s] Invoked command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --build /home/subhamss/dev_ws/src/articubot_one/build/articubot_one -- -j1 -l1
+[1.471s] Invoking command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/subhamss/dev_ws/src/articubot_one/build/articubot_one
+[1.480s] -- Install configuration: ""
+[1.480s] -- Execute custom install script
+[1.481s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.488s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.495s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.501s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/camera.xacro
+[1.508s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[1.521s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.530s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.537s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.544s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.550s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.561s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.568s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.575s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.581s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.587s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/obstacle_world.world
+[1.594s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.602s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.609s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.617s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.625s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+[1.632s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.638s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+[1.644s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+[1.650s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.663s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.669s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+[1.677s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.685s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.691s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.697s] -- Symlinking: /home/subhamss/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml
+[1.705s] Invoked command in '/home/subhamss/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/home/subhamss/dev_ws/install/articubot_one:/opt/ros/foxy:/opt/ros/noetic /usr/bin/cmake --install /home/subhamss/dev_ws/src/articubot_one/build/articubot_one
